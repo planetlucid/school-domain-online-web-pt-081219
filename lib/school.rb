@@ -2,8 +2,8 @@
 
 class School
   
-  def initialize(breed)
-    @breed = breed
+  def initialize(school)
+    @school = school
   end
   
   def school=(school)
