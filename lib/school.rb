@@ -5,7 +5,7 @@ class School
   attr_accessor :author, :grade  # remove the attr_accessor for genre
   attr_reader :title, :genre  # add an attr_reader for genre
  
-  roster = {}
+  @roster = {}
  
   def initialize(title)
     @title = title
