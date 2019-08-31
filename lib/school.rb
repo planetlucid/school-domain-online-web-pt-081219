@@ -1,6 +1,11 @@
 # code here!
 
 class School
+  
+  def initialize(breed)
+    @breed = breed
+  end
+  
   def school=(school)
     @school = school
   end
