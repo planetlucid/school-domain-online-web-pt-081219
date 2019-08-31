@@ -2,11 +2,11 @@
 
 class School
  
- def initialize(title)
-    @title = title
+ def initialize(roster)
+    @roster = roster
   end
  
-  def title
+  def roster
   end
   
 end
