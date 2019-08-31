@@ -5,7 +5,9 @@ class School
     @school = school
   end
   
-  
+  def school
+    @school
+  end
 end
 
 school = School.new("Bayside High School")
