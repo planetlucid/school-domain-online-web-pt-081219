@@ -14,3 +14,4 @@ class School
     @school
   end
 end
+
