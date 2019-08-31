@@ -1,14 +1,14 @@
 # code here!
 
 class School
-  attr_accessor :author, :page_count, :genre
+  attr_accessor :author, :add_student, :grade
  
-  def initialize(title)
-    @title = title
+  def initialize(roster)
+    @roster = roster
   end
  
-  def title
-    @title
+  def roster
+    @roster
   end
  
   def turn_page
