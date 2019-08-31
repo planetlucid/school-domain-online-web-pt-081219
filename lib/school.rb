@@ -1,10 +1,11 @@
 # code here!
 
 class School
-  
-  def breed=(breed)
-    @breed = breed
+  def school=(school)
+    @school = school
   end
+  
+  
 end
 
 school = School.new("Bayside High School")
