@@ -1,17 +1,13 @@
 # code here!
 
 class School
-  
-  def initialize(school)
-    @school = school
+ 
+ def initialize(title)
+    @title = title
+  end
+ 
+  def title
   end
   
-  def school=(school)
-    @school = school
-  end
-  
-  def school
-    @school
-  end
 end
 
