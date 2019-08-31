@@ -14,6 +14,3 @@ class School
     @school
   end
 end
-
-school = School.new
-school.roster
